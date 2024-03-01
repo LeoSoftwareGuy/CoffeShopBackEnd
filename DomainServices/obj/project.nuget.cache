@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "lX2trtWUyapHls+RQao0sIX15TchRDHGp5YUgRlVjhqQUvSSWQz6U0fwPc84Mqbm0BPn0VWz3tDMka0gRBkR3A==",
+  "success": true,
+  "projectFilePath": "D:\\Personla\\Personal\\CoffeeBackEnd\\DomainServices\\DomainServices.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kim Zafra\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Kim Zafra\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: The ServicePointManager does not support proxies with the https scheme."
+    }
+  ]
+}

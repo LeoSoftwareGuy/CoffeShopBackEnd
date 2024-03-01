@@ -1,0 +1,9 @@
+.vs/
+.idea/
+.idea/.*
+.DS_Store
+Game/obj/
+Game/bin/
+Plugin/obj/
+Plugin/bin/
+*.sln.DotSettings.user

@@ -1,0 +1,15 @@
+C:\Projects\Personal\CoffeeBackEnd\DomainServices\bin\Debug\net6.0\DomainServices.deps.json
+C:\Projects\Personal\CoffeeBackEnd\DomainServices\bin\Debug\net6.0\DomainServices.dll
+C:\Projects\Personal\CoffeeBackEnd\DomainServices\bin\Debug\net6.0\DomainServices.pdb
+C:\Projects\Personal\CoffeeBackEnd\DomainServices\bin\Debug\net6.0\Domain.dll
+C:\Projects\Personal\CoffeeBackEnd\DomainServices\bin\Debug\net6.0\Domain.pdb
+C:\Projects\Personal\CoffeeBackEnd\DomainServices\obj\Debug\net6.0\DomainServices.csproj.AssemblyReference.cache
+C:\Projects\Personal\CoffeeBackEnd\DomainServices\obj\Debug\net6.0\DomainServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Personal\CoffeeBackEnd\DomainServices\obj\Debug\net6.0\DomainServices.AssemblyInfoInputs.cache
+C:\Projects\Personal\CoffeeBackEnd\DomainServices\obj\Debug\net6.0\DomainServices.AssemblyInfo.cs
+C:\Projects\Personal\CoffeeBackEnd\DomainServices\obj\Debug\net6.0\DomainServices.csproj.CoreCompileInputs.cache
+C:\Projects\Personal\CoffeeBackEnd\DomainServices\obj\Debug\net6.0\DomainServices.csproj.CopyComplete
+C:\Projects\Personal\CoffeeBackEnd\DomainServices\obj\Debug\net6.0\DomainServices.dll
+C:\Projects\Personal\CoffeeBackEnd\DomainServices\obj\Debug\net6.0\refint\DomainServices.dll
+C:\Projects\Personal\CoffeeBackEnd\DomainServices\obj\Debug\net6.0\DomainServices.pdb
+C:\Projects\Personal\CoffeeBackEnd\DomainServices\obj\Debug\net6.0\ref\DomainServices.dll

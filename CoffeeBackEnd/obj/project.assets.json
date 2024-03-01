@@ -1,0 +1,635 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.22",
+      "Microsoft.EntityFrameworkCore.Design >= 7.0.10",
+      "Swashbuckle.AspNetCore >= 6.5.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Kim Zafra\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Personla\\Personal\\CoffeeBackEnd\\CoffeeBackEnd\\CoffeeBackEnd.csproj",
+      "projectName": "CoffeeBackEnd",
+      "projectPath": "D:\\Personla\\Personal\\CoffeeBackEnd\\CoffeeBackEnd\\CoffeeBackEnd.csproj",
+      "packagesPath": "C:\\Users\\Kim Zafra\\.nuget\\packages\\",
+      "outputPath": "D:\\Personla\\Personal\\CoffeeBackEnd\\CoffeeBackEnd\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Kim Zafra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://gametechgit.gamesglobal.com/api/v4/projects/1110/packages/nuget/index.json": {},
+        "https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\Personla\\Personal\\CoffeeBackEnd\\ApplicationServices\\ApplicationServices.csproj": {
+              "projectPath": "D:\\Personla\\Personal\\CoffeeBackEnd\\ApplicationServices\\ApplicationServices.csproj"
+            },
+            "D:\\Personla\\Personal\\CoffeeBackEnd\\Persistence\\Persistence.csproj": {
+              "projectPath": "D:\\Personla\\Personal\\CoffeeBackEnd\\Persistence\\Persistence.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "target": "Package",
+            "version": "[6.0.22, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[7.0.10, )"
+          },
+          "Swashbuckle.AspNetCore": {
+            "target": "Package",
+            "version": "[6.5.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Failed to download package 'Swashbuckle.AspNetCore.Swagger.6.5.0' from 'https://api.nuget.org/v3-flatcontainer/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg'.\r\nThe ServicePointManager does not support proxies with the https scheme."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Relational' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/microsoft.entityframeworkcore.relational/index.json'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Relational"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.Protocols' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/1110/packages/nuget/download/microsoft.identitymodel.protocols/index.json'.",
+      "libraryId": "Microsoft.IdentityModel.Protocols"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.DependencyModel' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/1110/packages/nuget/download/microsoft.extensions.dependencymodel/index.json'.",
+      "libraryId": "Microsoft.Extensions.DependencyModel"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Relational' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/1110/packages/nuget/download/microsoft.entityframeworkcore.relational/index.json'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Relational"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore.SwaggerGen' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/swashbuckle.aspnetcore.swaggergen/index.json'.",
+      "libraryId": "Swashbuckle.AspNetCore.SwaggerGen"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.IdentityModel.Tokens.Jwt' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/1110/packages/nuget/download/system.identitymodel.tokens.jwt/index.json'.",
+      "libraryId": "System.IdentityModel.Tokens.Jwt"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Design' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/microsoft.entityframeworkcore.design/index.json'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Design"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Mono.TextTemplating' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/mono.texttemplating/index.json'.",
+      "libraryId": "Mono.TextTemplating"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Mono.TextTemplating' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/1110/packages/nuget/download/mono.texttemplating/index.json'.",
+      "libraryId": "Mono.TextTemplating"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore.SwaggerUI' from remote source 'https://api.nuget.org/v3-flatcontainer/swashbuckle.aspnetcore.swaggerui/index.json'.",
+      "libraryId": "Swashbuckle.AspNetCore.SwaggerUI"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.Protocols' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/microsoft.identitymodel.protocols/index.json'.",
+      "libraryId": "Microsoft.IdentityModel.Protocols"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore.SwaggerUI' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/1110/packages/nuget/download/swashbuckle.aspnetcore.swaggerui/index.json'.",
+      "libraryId": "Swashbuckle.AspNetCore.SwaggerUI"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.IdentityModel.Tokens.Jwt' from remote source 'https://api.nuget.org/v3-flatcontainer/system.identitymodel.tokens.jwt/index.json'.",
+      "libraryId": "System.IdentityModel.Tokens.Jwt"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.ApiDescription.Server' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.apidescription.server/index.json'.",
+      "libraryId": "Microsoft.Extensions.ApiDescription.Server"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.IdentityModel.Protocols' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.protocols/index.json'.",
+      "libraryId": "Microsoft.IdentityModel.Protocols"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore.SwaggerGen' from remote source 'https://api.nuget.org/v3-flatcontainer/swashbuckle.aspnetcore.swaggergen/index.json'.",
+      "libraryId": "Swashbuckle.AspNetCore.SwaggerGen"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore.SwaggerUI' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/swashbuckle.aspnetcore.swaggerui/index.json'.",
+      "libraryId": "Swashbuckle.AspNetCore.SwaggerUI"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Mono.TextTemplating' from remote source 'https://api.nuget.org/v3-flatcontainer/mono.texttemplating/index.json'.",
+      "libraryId": "Mono.TextTemplating"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.IdentityModel.Tokens.Jwt' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/system.identitymodel.tokens.jwt/index.json'.",
+      "libraryId": "System.IdentityModel.Tokens.Jwt"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.ApiDescription.Server' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/microsoft.extensions.apidescription.server/index.json'.",
+      "libraryId": "Microsoft.Extensions.ApiDescription.Server"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/humanizer.core/index.json'.",
+      "libraryId": "Humanizer.Core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.DependencyModel' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/microsoft.extensions.dependencymodel/index.json'.",
+      "libraryId": "Microsoft.Extensions.DependencyModel"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core' from remote source 'https://api.nuget.org/v3-flatcontainer/humanizer.core/index.json'.",
+      "libraryId": "Humanizer.Core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore.SwaggerGen' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/1110/packages/nuget/download/swashbuckle.aspnetcore.swaggergen/index.json'.",
+      "libraryId": "Swashbuckle.AspNetCore.SwaggerGen"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Humanizer.Core' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/1110/packages/nuget/download/humanizer.core/index.json'.",
+      "libraryId": "Humanizer.Core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.DependencyModel' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencymodel/index.json'.",
+      "libraryId": "Microsoft.Extensions.DependencyModel"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.ApiDescription.Server' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/1110/packages/nuget/download/microsoft.extensions.apidescription.server/index.json'.",
+      "libraryId": "Microsoft.Extensions.ApiDescription.Server"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Text.Encoding.CodePages' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/1110/packages/nuget/download/system.text.encoding.codepages/index.json'.",
+      "libraryId": "System.Text.Encoding.CodePages"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.Cryptography.Pkcs' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/system.security.cryptography.pkcs/index.json'.",
+      "libraryId": "System.Security.Cryptography.Pkcs"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Design' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/microsoft.entityframeworkcore.design/index.json'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Design"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Relational' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/1110/packages/nuget/download/microsoft.entityframeworkcore.relational/index.json'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Relational"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.Cryptography.Pkcs' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/1110/packages/nuget/download/system.security.cryptography.pkcs/index.json'.",
+      "libraryId": "System.Security.Cryptography.Pkcs"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Data.SqlClient' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/1110/packages/nuget/download/microsoft.data.sqlclient/index.json'.",
+      "libraryId": "Microsoft.Data.SqlClient"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Text.Encoding.CodePages' from remote source 'https://api.nuget.org/v3-flatcontainer/system.text.encoding.codepages/index.json'.",
+      "libraryId": "System.Text.Encoding.CodePages"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Text.Encoding.CodePages' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/system.text.encoding.codepages/index.json'.",
+      "libraryId": "System.Text.Encoding.CodePages"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Relational' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/1110/packages/nuget/download/microsoft.entityframeworkcore.relational/index.json'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Relational"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Data.SqlClient' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.data.sqlclient/index.json'.",
+      "libraryId": "Microsoft.Data.SqlClient"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Relational' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/microsoft.entityframeworkcore.relational/index.json'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Relational"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Security.Cryptography.Pkcs' from remote source 'https://api.nuget.org/v3-flatcontainer/system.security.cryptography.pkcs/index.json'.",
+      "libraryId": "System.Security.Cryptography.Pkcs"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Relational' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/1110/packages/nuget/download/microsoft.entityframeworkcore.relational/index.json'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Relational"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Relational' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/microsoft.entityframeworkcore.relational/index.json'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Relational"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Data.SqlClient' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/microsoft.data.sqlclient/index.json'.",
+      "libraryId": "Microsoft.Data.SqlClient"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Relational' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/microsoft.entityframeworkcore.relational/index.json'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Relational"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'BouncyCastle.Cryptography' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/bouncycastle.cryptography/index.json'.",
+      "libraryId": "BouncyCastle.Cryptography"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'BouncyCastle.Cryptography' from remote source 'https://api.nuget.org/v3-flatcontainer/bouncycastle.cryptography/index.json'.",
+      "libraryId": "BouncyCastle.Cryptography"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'BouncyCastle.Cryptography' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/1110/packages/nuget/download/bouncycastle.cryptography/index.json'.",
+      "libraryId": "BouncyCastle.Cryptography"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Configuration.Abstractions' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/1110/packages/nuget/download/microsoft.extensions.configuration.abstractions/index.json'.",
+      "libraryId": "Microsoft.Extensions.Configuration.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Configuration.Abstractions' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.configuration.abstractions/index.json'.",
+      "libraryId": "Microsoft.Extensions.Configuration.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Configuration.Abstractions' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/microsoft.extensions.configuration.abstractions/index.json'.",
+      "libraryId": "Microsoft.Extensions.Configuration.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Configuration.FileExtensions' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.configuration.fileextensions/index.json'.",
+      "libraryId": "Microsoft.Extensions.Configuration.FileExtensions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Configuration.FileExtensions' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/1110/packages/nuget/download/microsoft.extensions.configuration.fileextensions/index.json'.",
+      "libraryId": "Microsoft.Extensions.Configuration.FileExtensions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Configuration.FileExtensions' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/microsoft.extensions.configuration.fileextensions/index.json'.",
+      "libraryId": "Microsoft.Extensions.Configuration.FileExtensions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Abstractions' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.abstractions/index.json'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Abstractions' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/microsoft.entityframeworkcore.abstractions/index.json'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Abstractions' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/1110/packages/nuget/download/microsoft.entityframeworkcore.abstractions/index.json'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Analyzers' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.analyzers/index.json'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Analyzers"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Analyzers' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/microsoft.entityframeworkcore.analyzers/index.json'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Analyzers"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Analyzers' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/1110/packages/nuget/download/microsoft.entityframeworkcore.analyzers/index.json'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Analyzers"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Configuration' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.configuration/index.json'.",
+      "libraryId": "Microsoft.Extensions.Configuration"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Configuration' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/microsoft.extensions.configuration/index.json'.",
+      "libraryId": "Microsoft.Extensions.Configuration"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Configuration' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/1110/packages/nuget/download/microsoft.extensions.configuration/index.json'.",
+      "libraryId": "Microsoft.Extensions.Configuration"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Caching.Memory' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.caching.memory/index.json'.",
+      "libraryId": "Microsoft.Extensions.Caching.Memory"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Caching.Memory' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/1110/packages/nuget/download/microsoft.extensions.caching.memory/index.json'.",
+      "libraryId": "Microsoft.Extensions.Caching.Memory"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Caching.Memory' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/microsoft.extensions.caching.memory/index.json'.",
+      "libraryId": "Microsoft.Extensions.Caching.Memory"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Relational' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/microsoft.entityframeworkcore.relational/index.json'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Relational"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Relational' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/microsoft.entityframeworkcore.relational/index.json'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Relational"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore.Swagger' from remote source 'https://api.nuget.org/v3-flatcontainer/swashbuckle.aspnetcore.swagger/index.json'.",
+      "libraryId": "Swashbuckle.AspNetCore.Swagger"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Relational' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/1110/packages/nuget/download/microsoft.entityframeworkcore.relational/index.json'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Relational"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore.Swagger' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/swashbuckle.aspnetcore.swagger/index.json'.",
+      "libraryId": "Swashbuckle.AspNetCore.Swagger"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Options' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.options/index.json'.",
+      "libraryId": "Microsoft.Extensions.Options"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Options' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/microsoft.extensions.options/index.json'.",
+      "libraryId": "Microsoft.Extensions.Options"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Identity.Stores' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/microsoft.extensions.identity.stores/index.json'.",
+      "libraryId": "Microsoft.Extensions.Identity.Stores"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Identity.Stores' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.identity.stores/index.json'.",
+      "libraryId": "Microsoft.Extensions.Identity.Stores"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Relational' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/1110/packages/nuget/download/microsoft.entityframeworkcore.relational/index.json'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Relational"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Relational' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.relational/index.json'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Relational"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.EntityFrameworkCore.Relational' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.relational/index.json'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Relational"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.FileProviders.Abstractions' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.fileproviders.abstractions/index.json'.",
+      "libraryId": "Microsoft.Extensions.FileProviders.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.FileProviders.Abstractions' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/microsoft.extensions.fileproviders.abstractions/index.json'.",
+      "libraryId": "Microsoft.Extensions.FileProviders.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.FileProviders.Abstractions' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/1110/packages/nuget/download/microsoft.extensions.fileproviders.abstractions/index.json'.",
+      "libraryId": "Microsoft.Extensions.FileProviders.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Text.Json' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/system.text.json/index.json'.",
+      "libraryId": "System.Text.Json"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Text.Json' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/1110/packages/nuget/download/system.text.json/index.json'.",
+      "libraryId": "System.Text.Json"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Text.Json' from remote source 'https://api.nuget.org/v3-flatcontainer/system.text.json/index.json'.",
+      "libraryId": "System.Text.Json"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.DependencyInjection' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection/index.json'.",
+      "libraryId": "Microsoft.Extensions.DependencyInjection"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.DependencyInjection' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/229/packages/nuget/download/microsoft.extensions.dependencyinjection/index.json'.",
+      "libraryId": "Microsoft.Extensions.DependencyInjection"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.DependencyInjection' from remote source 'https://gametechgit.gamesglobal.com/api/v4/projects/1110/packages/nuget/download/microsoft.extensions.dependencyinjection/index.json'.",
+      "libraryId": "Microsoft.Extensions.DependencyInjection"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.Logging' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.logging/index.json'.",
+      "libraryId": "Microsoft.Extensions.Logging"
+    },
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: The ServicePointManager does not support proxies with the https scheme."
+    }
+  ]
+}
